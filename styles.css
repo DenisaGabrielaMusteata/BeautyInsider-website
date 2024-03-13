@@ -1,0 +1,120 @@
+.body {
+    font-family: Montserrat;
+    color:#555555;
+    
+}
+
+.header-container{
+
+    text-align: left;
+    padding: 80px;
+    padding-left: 65px; 
+    padding-top: 80px;/* Padding around the navigation items */
+    display: flex; /* Use flexbox layout */
+    /*background-color: #FFE2E2;*/
+    color:#fffafa;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    background-image: linear-gradient(rgba(93, 91, 91, 0.5), rgba(93, 91, 91, 0.5)),url('makeupimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* Style for the navigation bar */
+nav {
+    font-family: 'Montserrat'; /* Background color of the navbar */
+    color: #050505; /* Text color */
+    padding: 5px; /* Padding around the navigation items */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+   /* background-color: #FFE2E2;*/
+    color:#555555;
+}
+
+/* Style for the navigation links */
+nav a {
+     /* Text color of the links */
+    text-decoration: none; /* Remove underline from the links */
+    margin-left: 20px; /* Margin between the links */
+    color:#555555;
+}
+
+/* Style for the active link */
+nav a.active {
+    font-weight: bold; 
+    font-size: 18px;/* Make the active link bold */
+}
+
+.pages{
+    font-family: 'Ubuntu';
+    margin-right:50px;
+}
+/* Style for the title */
+nav span {
+    font-size: 35px;
+    margin-right: 20px; /* Add right margin to the title */
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-container{
+    /*background-color: #FFE2E2;*/
+}
+
+.motto{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    color: #ffffff;
+    line-height: 1.5;
+    font-weight: 800;
+    margin-top: 40px;
+    padding-left: 30%;
+}
+
+.products{
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    padding-top: 0rem;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+ul {
+    background-color: #dddddd;
+}
+
+.button{
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 170px;
+    margin-right: 4px;
+    cursor: pointer;
+    background-color: transparent;
+    height: 30%;
+    width: 20%;
+  }
+
+  .container-newest {
+    display: flex;
+}
+
+.box {
+    flex: 1; /* Fiecare div ocupă același spațiu */
+    border: 1px solid #000; /* Adăugarea unui chenar pentru vizualizare */
+    padding: 20px; /* Spațierea între conținut și margine */
+    margin: 10px; /* Margin între div-uri */
+    width: 100px;
+}
